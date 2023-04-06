@@ -11,7 +11,9 @@ def leap_year
     year = start
     while year <= last
         if year % 4 == 0 || year % 400 == 0
-            leap_year_array.push(year)
+            if year % 100 != 0
+                leap_year_array.push(year)
+            end
         end
         year += 1
     end    

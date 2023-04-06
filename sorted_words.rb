@@ -2,9 +2,6 @@
 
 def sorted_words
     words = []
-    puts "Enter a word. "
-    word = gets.chomp
-    words.push(word)
 
     loop do
         puts "Enter a word. "
